@@ -25,7 +25,7 @@ This web application is **built using Dyndle and XPM Lite** to enable inline edi
 
 ## Quick Start
 
-1. Download [`Deployable_Dyndle_app.publish.zip`](https://github.com/RWS-Open/tridion-sites-xpmlite-dyndle/releases) from the project's Releases page.
+1. Download [`XPMLite_Dyndle.zip`](https://github.com/RWS-Open/tridion-sites-xpmlite-dyndle/releases) from the project's Releases page.
 2. Extract the archive.
 3. Deploy the application to IIS.
 4. Browse the hosted application.
