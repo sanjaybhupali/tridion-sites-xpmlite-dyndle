@@ -66,7 +66,7 @@ Update the required `appSettings` values such as:
 					<add key="DD4T.CacheSettings.Binary" value="0"/> 
             </appSettings>
         </configuration>
-    ```
+```
 
 ### 2. Update the Area Views `Web.config`
 
@@ -91,7 +91,7 @@ Update the Razor namespaces in the `Areas/Core/Views/Web.config` file.
 		  </namespaces>
 		</pages>
 	  </system.web.webPages.razor>
-		```	
+	```	
 
 ### 3. Configure XPM Lite
 
@@ -104,7 +104,7 @@ Configure the following settings in Dyndle website root web.config file:
 - `contentServiceUrl`
 - `experience_space_url`
 
-  ```xml
+  	```xml
         <configuration>
             <appSettings>
                  <!-- Start XPMLITE --> 
@@ -118,7 +118,7 @@ Configure the following settings in Dyndle website root web.config file:
 				<!-- End XPMLITE --> 
             </appSettings>
         </configuration>
-
+	```
 ### 4. Download the [Latest XPMLite Release Assets](https://github.com/RWS-Open/tridion-sites-xpmlite-dxa-dotnet/releases)
 
 Download the latest compiled XPM Lite assets and copy them into the appropriate JavaScript and CSS folders in the web application.
