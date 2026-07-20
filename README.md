@@ -125,7 +125,7 @@ Download the latest compiled XPM Lite assets and copy them into the appropriate 
 
 ### 5. Update the Layout
 
-Update the application's layout page so it references the copied assets.
+Update the application's layout page so it references the copied assets. [`Reference layout file`](https://github.com/sanjaybhupali/tridion-sites-xpmlite-dyndle/blob/main/DyndleWebApp/Areas/Core/Views/Shared/_Layout.cshtml)
 
 ### 6. Add the App_Code Files
 
