@@ -438,9 +438,13 @@
     <Content Include="App_Code\PageTypeImagesConfigSection.cs" />
     <Content Include="App_Code\CapabilityHelper.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Core\Controllers\TeaserCollectionController.cs" />
     <Compile Include="Areas\Core\CoreAreaRegistration.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PageController.cs" />
+    <Compile Include="Controllers\TeaserCollectionController1.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -453,7 +457,9 @@
     <Compile Include="Models\Entities\Paragraph.cs" />
     <Compile Include="Models\Entities\LinkList.cs" />
     <Compile Include="Models\Entities\LinkedContent.cs" />
+    <Compile Include="Models\Entities\TeaserCollection.cs" />
     <Compile Include="Models\Entities\Teaser.cs" />
+    <Compile Include="Models\Entities\TeaserCollectionViewModel.cs" />
     <Compile Include="Models\Pages\FooterPage.cs" />
     <Compile Include="Models\Pages\HeaderPage.cs" />
     <Compile Include="Models\Pages\GeneralPage.cs" />
@@ -501,7 +507,12 @@
     <Content Include="content\fonts\Roboto-Regular.ttf" />
     <Content Include="content\fonts\Roboto-Regular.woff" />
     <Content Include="content\fonts\Roboto-Regular.woff2" />
+    <Content Include="Areas\Core\Views\Entity\TeaserEntity.cshtml" />
+    <Content Include="Areas\Core\Views\TeaserCollection\TeaserCollection.cshtml" />
     <None Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Test\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -511,8 +522,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Home\" />
     <Folder Include="Views\Page\" />
-    <Folder Include="Views\Test\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
